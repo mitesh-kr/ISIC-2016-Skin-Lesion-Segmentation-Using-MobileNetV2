@@ -9,7 +9,7 @@ The main objective of this project is to train segmentation models using a pre-t
 1. **Feature Extraction**: Training only the decoder while keeping the pre-trained encoder frozen
 2. **Fine-tuning**: Training both the encoder and decoder with different learning rates
 
-## Dataset
+## [Dataset] (https://www.kaggle.com/datasets/mahmudulhasantasin/isic-2016-original-dataset)
 
 The project uses the ISIC 2016 skin lesion dataset which contains:
 - 900 training images with corresponding segmentation masks
