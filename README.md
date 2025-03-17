@@ -36,8 +36,9 @@ isic-segmentation-mobilenet/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/isic-segmentation-mobilenet.git
-cd isic-segmentation-mobilenet
+git clone https://github.com/mitesh-kr/ISIC-Vision--Image-Segmentation-with-MobileNet-Encoder.git
+cd ISIC-Vision--Image-Segmentation-with-MobileNet-Encoder
+
 ```
 
 2. Install dependencies:
