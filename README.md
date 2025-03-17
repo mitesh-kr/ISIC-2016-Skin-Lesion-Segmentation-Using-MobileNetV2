@@ -2,6 +2,8 @@
 
 This repository contains implementation of a semantic segmentation model for skin lesion segmentation based on the ISIC 2016 dataset. The model uses MobileNetV2 as the encoder backbone with a custom decoder architecture.
 
+
+
 ## Objective
 
 The main objective of this project is to train segmentation models using a pre-trained MobileNetV2 encoder with a custom decoder for skin lesion segmentation, exploring two different training strategies:
@@ -9,7 +11,7 @@ The main objective of this project is to train segmentation models using a pre-t
 1. **Feature Extraction**: Training only the decoder while keeping the pre-trained encoder frozen
 2. **Fine-tuning**: Training both the encoder and decoder with different learning rates
 
-## [Dataset] (https://www.kaggle.com/datasets/mahmudulhasantasin/isic-2016-original-dataset)
+## [Dataset](https://www.kaggle.com/datasets/mahmudulhasantasin/isic-2016-original-dataset)
 
 The project uses the ISIC 2016 skin lesion dataset which contains:
 - 900 training images with corresponding segmentation masks
