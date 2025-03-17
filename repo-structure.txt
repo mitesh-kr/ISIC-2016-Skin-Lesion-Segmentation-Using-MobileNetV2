@@ -1,0 +1,17 @@
+isic-segmentation-mobilenet/
+├── data/
+│   └── .gitignore         # To ignore dataset files
+├── models/
+│   ├── __init__.py
+│   └── segmentation_model.py
+├── utils/
+│   ├── __init__.py
+│   ├── data_loader.py
+│   └── metrics.py
+├── notebooks/
+│   └── experiment_results.ipynb
+├── train.py
+├── evaluate.py
+├── visualize.py
+├── requirements.txt
+└── README.md
